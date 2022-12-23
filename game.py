@@ -9,6 +9,7 @@ music_player.geometry("450x350")
 directory = askdirectory()
 x = 5
 os.chdir(directory)
+b = 6
 song_list = os.listdir()
 ​
 play_list = tkr.Listbox(music_player, font="Helvetica 12 bold", bg='yellow', selectmode=tkr.SINGLE)
