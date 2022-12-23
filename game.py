@@ -7,6 +7,7 @@ music_player = tkr.Tk()
 music_player.title("My Music Player")
 music_player.geometry("450x350")
 directory = askdirectory()
+x = 5
 os.chdir(directory)
 song_list = os.listdir()
 ​
